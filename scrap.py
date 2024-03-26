@@ -1,6 +1,7 @@
 import requests
 from fake_useragent import UserAgent
 import json
+from time import sleep
 
 
 async def main_scrap():
@@ -20,10 +21,6 @@ async def main_scrap():
       list_of_mints[name_of_tick] += 1
 
   return list_of_mints
-import requests
-from fake_useragent import UserAgent
-import json
-from time import sleep
 
 
 async def main_scrap():
