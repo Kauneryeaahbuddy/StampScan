@@ -7,7 +7,7 @@ from scrap import main_scrap
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token='6683962331:AAGg258b18mejdvtG4g50JPc1DFCaYz8HuI')
+bot = Bot(token='WRITE YOUR TOKEN')
 dp = Dispatcher()
 
 
